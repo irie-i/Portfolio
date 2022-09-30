@@ -8,8 +8,8 @@ body {
 .header {
     padding: 5px;
     background-color: rgb(15, 77, 11);
-    display: flex;]
-    justify-content: space-betwe;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }   
 
@@ -17,7 +17,9 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     color: #ffffff;
+    display: inline-block;
 }
+
 
 .header  nav {
     font-size: 20px;
@@ -25,7 +27,9 @@ body {
 
 .header ul {
     list-style-type: none;
-    padding-right: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
 
 
 }
@@ -36,7 +40,12 @@ body {
     
 }
 
-a {
+.navbar-right {
+    display: flex;
+    align-self:flex-end
+}
+
+.header a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -52,8 +61,26 @@ a {
     background-position: center;
 }
 
+.aboutme {
+    margin: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
 .aboutme img {
     width: 200px;
     float: left;
     padding-right: 16px;
+}
+
+.work {
+    margin: 20px;
+    padding: 0%;
+}
+
+.contact-me {
+    margin: 20px;
+}
+
+.contact-me a {
+    color: black;
 }
