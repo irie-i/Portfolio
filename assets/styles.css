@@ -74,11 +74,20 @@ body {
 
 .work {
     margin: 20px;
-    padding: 0%;
+    padding: 250px;
 }
 
 .contact-me {
     margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.contact-me p {
+    display: inline;
+    flex-direction: row;
+
 }
 
 .contact-me a {
