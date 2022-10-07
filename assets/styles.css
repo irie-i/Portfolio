@@ -1,13 +1,14 @@
 body {
     margin: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #A1A10F;
 
 }
 
 /* Header */
 .header {
     padding: 5px;
-    background-color: rgb(15, 77, 11);
+    background-color: hsl(120, 13%, 8%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,29 +54,67 @@ body {
 
 /* main */
 .hero {
-    height: 500px;
+    height: 600px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./Images/giorgio-trovato-YK7Mgq29FwA-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
+/* About me */
 .aboutme {
     margin: 20px;
-    padding: 0px 0px 0px 0px;
+    padding: 10em;
 }
+
+/* .aboutme h2 {
+    position: absolute;
+} */
 
 .aboutme img {
     width: 200px;
     float: left;
     padding-right: 16px;
+    margin-top:  80px;
+    margin-left: 160px;    
 }
+.aboutme p {
+    padding-top: 10em;
 
+
+}
+/* End about me */
 .work {
     margin: 20px;
-    padding: 250px;
+    padding-top: 10em;
+    
 }
+
+.work div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}   
+.box1 {
+    width: 15em;
+    height: 15em;
+    background-color: rgb(1, 39, 11);
+}
+
+.gallery {
+    padding: 1em;
+    margin: 1em;
+}
+
+
+
+/* h2's */
+.section-h2  {
+    position: absolute;
+    padding-top: 6em;
+}
+
 
 .contact-me {
     margin: 20px;
